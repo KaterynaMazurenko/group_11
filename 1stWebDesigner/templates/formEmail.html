@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>FormEmail</title>
+		<meta charset="utf-8">
+		<meta name="viewport" 
+ 			content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../stylesheets/1stWebDesigner.css">
+	</head>
+	<body>
+		
+								<div class="b-activeTab" >
+									<div class="b-activeTab__windowTab b-activeTab__windowTab_inform">
+										<div class="b-windowTab b-windowTab_inform">
+											<div class="b-windowTab__information">
+												<form action="" method="" class="b-information" id="form1">
+													<br><label class='b-information__label'>Name</label>
+													<br><input type='text' name='name' class='b-information__name b-information__field' placeholder="Your Name" autofocus><div class="b-information__check"></div>
+													<br><label class='b-information__label'>Surname</label>
+													<br><input type='text' name='surname' class='b-information__surname b-information__field' placeholder="Your Surname"><div class="b-information__check"></div>
+													<br><label class='b-information__label'>E-Mail</label>
+													<br><input type='text' name='email' class='b-information__email b-information__field' placeholder="login@hosting.domen"><div class="b-information__check"></div>
+													<br><label class='b-information__label'>Phone</label>
+													<br><input type='text' name='phone' class='b-information__phone b-information__field' placeholder="+xx(xxx)xxx-xx-xx"><div class="b-information__check"></div>
+													<br><input type="checkbox" class="b-information__checkbox" id="agree"><span class="b-information__checkboxLabel">I agree to the privacy policy* and give permission for the processing of personal data</span>
+													<br><input type="button" value="SEND" class="b-information__btn" id="send_btn">
+												</form>
+											</div>
+										</div>
+									</div>
+			
+		</div>
+		
+		<script src="../scripts/jquery-2.1.4.min.js"></script>
+		<script src="../scripts/component.js"></script>
+		<script src="../scripts/settings.js"></script>
+		<script src="../scripts/init_settings.js"></script>
+		<script src="../scripts/formEmail.js"></script>
+		<script>
+			var form1 = new Form ("#form1");
+		</script>
+		
+		
+	</body>
+</html>		
