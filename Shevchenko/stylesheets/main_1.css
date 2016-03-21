@@ -1,0 +1,436 @@
+/* Шрифты */
+@font-face {
+    font-family: "LoveLetters";
+    src: url("../fonts/loveletters.ttf") ;
+}
+
+@font-face {
+    font-family: "Calibri";
+    font-style: normal;
+    font-weight: normal;
+    src: local("â˜º"), url("../fonts/Calibri.woff") format("woff"), url("fonts/Calibri.ttf") format("truetype"), url("fonts/Calibri.svg") format("svg");
+}
+
+/* Общие свойства классов */
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+/*     background: #fff url("../images/design/bg0.png") repeat scroll 0 0 / 50% auto; */
+    font-family: "Calibri",sans-serif;
+    font-size: 10pt;
+    margin: 0;
+    color: #511521;
+}
+*{
+margin: 0 auto;
+}
+img {
+    border: 0 none;
+    max-width: 100%;
+    width: auto;
+    overflow: hidden;
+}
+.b-container {
+    margin: 0 auto;
+    max-width: 1578px;
+}
+.b-container__main {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+.b-container__main_wide {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.b-container__clearfix {
+    clear: both;
+    display: inline-block;
+    content: " ";
+    height: 0;
+    visibility: hidden;
+}
+.b-container__close{
+	float: right;
+	right: 0;
+	top: 0;
+	z-index: 400;
+	color: #777777;
+}
+.b-container__close:hover{
+ 	color: #d9d9d9;
+}
+
+
+
+
+
+/* Свойства Заголовка */
+.b-header{
+width: 100%;
+box-shadow: 12px 17px 22px #888888;
+
+position: relative;
+}
+.b-header__banner{
+background: #15402f;
+}
+.b-banner{
+width: 100%;
+
+}
+.b-header__menuTop{
+position: absolute;
+    right: 5%;
+    top: 5%;
+    width: 65%;
+}
+.b-menuTop{
+
+}
+.b-menuTop__item{
+background: rgba(5, 35, 20, 0.3) none repeat scroll 0 0;
+    display: inline-block;
+    margin: 10px 2%;
+    text-align: center;
+    width: 20%;
+}
+.b-menuTop__link{
+color: #eeecfa;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+.b-menuTop__link:hover{
+color: #fff;
+}
+.b-header__syteName{
+background: rgba(250, 250, 250, 0.3) none repeat scroll 0 0;
+left: 23%;
+position: absolute;
+top: 50%;
+width: 40%;
+}
+.b-syteName{
+color: #743836;
+font-size: 5em;
+font-family: "LoveLetters";
+}
+.b-header__syteIdea{
+background: rgba(250, 250, 250, 0.4) none repeat scroll 0 0;
+left: 5%;
+position: absolute;
+top: 80%;
+width: 68%
+}
+.b-syteIdea{
+font-weight: normal;
+color: #743836;
+font-size: 2.5em;
+}
+
+
+
+
+
+
+/* Секция Основной идеи сайта */
+.b-container__mission{
+margin: 115px 5% 10px;
+}
+.b-mission{
+
+}
+.b-mission__header{
+color: #ed2d73;
+font-size: 3em;
+margin: 10px 5%;
+font-family: "LoveLetters";
+}
+.b-mission__maintext{
+font-size: 1.3em;
+line-height: 25px;
+}
+.b-mission__devis{
+text-align: center;
+color: #ed2d73;
+font-size: 2.5em;
+margin: 20px 10px;
+}
+			
+/* Секция Глобального Меню */	
+.b-container__menu{
+
+}
+.b-menu{
+
+}
+.b-menu__item{
+display: inline-block;
+margin: 20px 3% 20px 5%;
+width: 25%;
+min-height: 200px;
+vertical-align: top;
+}
+.b-menu__item:first-child{
+margin-left: 3%;
+}
+.b-menu__linkGlobalMenu{
+
+}
+.b-linkGlobalMenu{
+color: #c43482;
+}
+.b-linkGlobalMenu__imageWrapGM{
+margin-bottom: 20px;
+width: 80%;
+height: 150px;
+// width: 100%;
+// height: 100%;
+border-radius: 100%;
+border: 1px solid #3b102e;
+background: #f2f2f2 url("../images/design/GM.jpg") no-repeat scroll 0 0 / 100% auto;// #ffecef
+}
+.b-linkGlobalMenu__imageGM{
+
+}
+.b-linkGlobalMenu__descriotionGM{
+
+}
+.b-descriotionGM__header{
+text-align: center;
+}
+.b-descriotionGM__underHeader{
+
+}
+.b-descriotionGM__text{
+color: #623639;
+}					
+			
+/* Секция Обо мне */	
+.b-container__aboutMeBlock{
+background: #fff url("../images/design/bg.png") repeat scroll 0 0 / 50% auto;
+
+}
+.b-aboutMeBlock{
+
+}
+.b-aboutMeBlock__aboutMe{
+display: inline-block;
+width: 55%;
+vertical-align: top;
+margin: 20px 4%;
+}
+.b-aboutMe{
+
+}
+.b-aboutMe__header{
+margin: 20px 0;
+color: #c43482;
+font-size: 2em;
+}
+.b-aboutMe__main{
+font-size: 1.7em;
+line-height: 27px;
+}
+.b-aboutMe__name{
+color: #ff0000;
+
+}
+.b-aboutMe__epigraph{
+margin: 15px 10% 10px;
+}
+.b-epigraph{
+text-align: right;
+color: #c43482;
+font-size: 1.5em;
+}
+.b-epigraph__text{
+
+}
+.b-aboutMe__description{
+font-size: 1.3em;
+line-height: 21px;
+}
+.b-aboutMe__study{
+font-size: 1.4em;
+line-height: 18px;
+color: #c43482;
+margin: 40px 0;
+}
+.b-study__link{
+color: #c43482;
+}
+.b-aboutMe__studyInfo{
+display: none;
+}
+.b-aboutMe__studyInfo_shown{
+display: block;
+}
+.b-studyInfo{
+
+}
+.b-aboutMeBlock__myPhoto{
+display: inline-block;
+width: 30%;
+vertical-align: top;
+margin: 20px 0;
+}
+.b-myPhoto{
+margin: 20px 3%;
+width: 100%;
+border-radius: 40px;
+}
+
+/* Секция О методе */
+.b-container__myMethod{
+
+}
+.b-myMethod{
+
+}
+.b-myMethod__illustration{
+display: inline-block;
+width: 35%;
+vertical-align: top;
+margin: 20px 0;
+}
+.b-illustration{
+margin: 20px 3%;
+width: 100%;
+border: 3px double #b52a55;
+}
+.b-myMethod__aboutMethod{
+line-height: 24px;
+}
+.b-myMethod__aboutMethod_first{
+display: inline-block;
+width: 55%;
+vertical-align: top;
+margin: 20px 4%;
+line-height: 24px;
+}
+.b-aboutMethod{
+margin: 20px 0;
+}
+.b-aboutMethod__header{
+margin: 20px 0;
+color: #c43482;
+font-size: 2em;
+}
+.b-aboutMethod__main{
+font-size: 1.3em;
+line-height: 23px;
+}
+.b-aboutMethod__description{
+font-size: 1.3em;
+line-height: 23px;
+}
+.b-aboutMethod__experiense{
+font-size: 1.4em;
+line-height: 18px;
+color: #c43482;
+margin: 40px 0;
+}
+.b-experiense__link{
+color: #c43482;
+}
+.b-aboutMethod__methodInfo{
+display: none;
+}
+.b-aboutMethod__methodInfo_shown{
+display: block;
+}
+.b-methodInfo{
+
+}
+
+/* Секция О программе */
+.b-container__programBlock{
+background: rgba(250,250,250,0.1) url("../images/design/bg2.png") repeat scroll 0 0 / 25% auto;
+}
+.b-programBlock{
+position: relative;
+min-height: 900px;
+}
+.b-programBlock__sideImage{
+display: inline-block;
+width: 15%;
+min-height: 700px;
+vertical-align: top;
+
+}
+.b-programBlock__sideImage_left{
+background: #ffffff url("../images/design/left.png") no-repeat scroll 0 0 / cover;
+position: absolute;
+left: 0;
+}
+.b-programBlock__sideImage_right{
+background: #ffffff url("../images/design/right.png") no-repeat scroll right center / cover ;
+right: 0;
+position: absolute;
+}
+.b-programBlock__program{
+vertical-align: top;
+display: inline-block;
+width: 65%;
+margin: 40px 10px 10px 20px;
+position: absolute;
+left: 15%
+}
+.b-programBlock__presentation{
+
+}
+.b-presentation{
+
+}
+.b-presentation__headerMain{
+color: #c43482;
+font-size: 2em;
+text-align: center;
+margin-bottom: 10px;
+line-height: 35px;
+}
+.b-presentation__header{
+color: #c43482;
+font-size: 1.5em;
+text-align: center;
+margin-bottom: 20px;
+line-height: 27px;
+}
+.b-presentation__gifesProgram{
+
+}
+.b-gifesProgram{
+color: #67031e;
+font-size: 1.3em;
+}
+.b-gifesProgram__item{
+list-style: inside url("../images/design/atom.png") disc;
+line-height: 21px;
+}
+.b-presentation__resume{
+color: #ed4e86;
+font-size: 1.3em;
+margin: 20px 0;
+}
+
+
+/* Секция Меню Программы */
+
+/* Секция Отзывы */	
+			
+
+/* Секция Дополнительных вопросов */			
+
+/* Секция Практики */
+
+/* Секция Блога */
+			
+
+/* Секция Всплывающего Заголовка */
+
+/* Секция Подвала */
